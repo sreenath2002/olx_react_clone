@@ -1,0 +1,101 @@
+.viewParentDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2em;
+}
+
+.imageShowDiv {
+  padding: 16px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.imageShowDiv img {
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+  margin-right: 50px;
+}
+
+.buynow,
+.chat {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buynow {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.buynow:hover {
+  background-color: #0056b3;
+}
+
+.chat {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.chat:hover {
+  background-color: #218838;
+}
+
+.rightSection {
+  padding: 16px;
+  margin-top: 2em;
+  max-width: 400px;
+  width: 100%;
+}
+
+.productDetails :first-child {
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #002f34;
+  font-size: 24px;
+}
+
+.productDetails {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 1.5em;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contactDetails {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contactDetails :first-child {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #002f34;
+}
+
+@media only screen and (max-width: 600px) {
+  .imageShowDiv {
+    max-width: 100%;
+  }
+
+  .rightSection {
+    max-width: 100%;
+  }
+}

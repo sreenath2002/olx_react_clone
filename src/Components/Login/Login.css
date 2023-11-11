@@ -1,0 +1,73 @@
+/* Login Parent Container */
+.loginParentDiv {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Styles */
+.loginParentDiv img {
+  max-width: 100%;
+}
+
+/* Form Styles */
+.form {
+  margin-top: 20px;
+}
+
+.form label {
+  display: block;
+  font-weight: bold;
+  text-align: left;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Button Styles */
+.form button {
+  background-color: #00bcd4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #0097a7;
+}
+
+/* Signup Link Styles */
+.signupLink {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #00bcd4;
+  font-size: 16px;
+}
+
+.signupLink:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .loginParentDiv {
+    max-width: 90%;
+  }
+}
+
+  

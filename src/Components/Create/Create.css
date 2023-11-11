@@ -1,0 +1,56 @@
+.centerDiv {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.centerDiv form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.centerDiv form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.centerDiv form input[type="file"] {
+  border: none;
+  background-color: transparent;
+}
+
+.centerDiv form img {
+  margin-top: 10px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.uploadBtn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.uploadBtn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .centerDiv {
+    padding: 10px;
+  }
+}
+
+  
